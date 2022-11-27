@@ -11,7 +11,7 @@ print() 함수 사용법
 print("재미있는", "파이썬")
 print("python", "JAVA", "C", sep=',')
 
-print("안녕", end='')
+print("안녕", end=' ')
 print("하세요")
 
 fos = open('sample.py', mode = 'wt')
