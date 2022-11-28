@@ -48,7 +48,7 @@ while True:
             ch_count += 1
         elif ch.isnumeric():
             num_count += 1
-    if ch_count + num_count > 3:
+    if ch_count + num_count > 2:
         print('가능한 아이디입니다!')
         while True:
             pwd = input('패쓰워드를 입력하세요(영문 숫자 포함 8자이상) >>> ')
@@ -64,6 +64,7 @@ while True:
                     pwd2 = input('패쓰워드 확인을 위해 한번더 입력해주세요 >>> ')
                     if str(pwd) == str(pwd2):
                         print('회원가입완료')
+                        print('[로그인]')
                         break
                     else:
                         print('비밀번호가 맞지않습니다.')
@@ -73,3 +74,18 @@ while True:
         break
     else:
         print('3글자 이상 입력해주세요!')
+
+while True:
+    ID2 = input('아이디를 입력하세요 >>> ')
+    if str(ID) == str(ID2):
+        while True:
+            pwd3 = input('비밀번호를 입력하세요 >>> ')
+            if str(pwd) == str(pwd3):
+                print('로그인 성공')
+                print(str(ID)+'님 환영합니다!')
+                break
+            else:
+                print('비밀번호가 맞지않습니다.')
+        break
+    else:
+        print('ID가 맞지않습니다.')

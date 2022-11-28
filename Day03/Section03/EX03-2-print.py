@@ -1,8 +1,9 @@
 '''
 파일명 : Ex 03-2-print.py
 print() 함수 사용법
-    seq : 출력할 value의 구분문자
-    end : value 출력 후 출력할 문자 (기본값 '\n')
+    sep : 출력할 value의 구분문자,값사이에 공백이 아닌 다른 문자를 넣고 싶을때 사용
+          구분자라는 separator에서 따옴
+    end : value 출력 후 출력할 문자 ( print 뒤의 기본값 '\n', (\n 은 줄바꿈의 제어문자))
     file : 출력방향 지정
 
 
