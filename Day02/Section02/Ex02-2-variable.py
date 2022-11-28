@@ -10,7 +10,7 @@
     특수문자(!@#$%^&*()_+등) 사용할수 없다
     대문자와 소문자를 구분한다.
     변수명의 첫 글자를 숫자로 사용할수 없다.
-    키워드 (list, dict, if, for, and 등)는 사용할 수 없다
+    키워드 (list, dict, if, for, and 등)는 사용할 수 없다 -> 보통 thislist, thistuple 등으로 쓰임
 
 '''
 name = 'Alice'

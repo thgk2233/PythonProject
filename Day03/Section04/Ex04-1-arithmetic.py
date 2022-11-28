@@ -25,3 +25,12 @@ print('{} / {} = {}'.format(a, b, a / b))
 print('{} // {} = {}'.format(a, b, a // b))
 # 나머지
 print('{} % {} = {}'.format(a, b, a % b))
+
+def f1(x):
+    ''' f1은 x의 사칙연산 함수입니다.'''
+    y = 8 / x * (2 + 2)
+    return y
+
+x = 2
+y = f1(x)
+print(y)

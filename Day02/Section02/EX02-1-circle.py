@@ -12,6 +12,9 @@ def get_area(radius):
     area = math.pi * math.pow(radius, 2)
     return area
 
+''''
+return은 함수에 
+'''
 radius = 1.5
 print(radius)
 
@@ -19,3 +22,4 @@ print(radius)
 area = get_area(radius)
 print(area)
 print (get_area.__doc__) # Docstring 확인
+#get_area라는 함수에 있는 docstring("""~""")을 출력하겠다라는 뜻(.__doc__라는 method를 이용해 출력가능)

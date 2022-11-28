@@ -19,7 +19,8 @@ while 조건식 :
 #     print(n)
 #     n -= 1 # n = n -1
 
-def autoDoor(isPerson)
+def autoDoor(isPerson):
+    '''isperson이라는 변수를 통해 결과를 도출하는 autodoor의 함수'''
     time = 10
     while isPerson:
         print("문이 열려요")
